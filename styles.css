@@ -107,7 +107,6 @@ h1 {
 }
 
 footer{
-    padding: 15px;
     background-color: var(--açai);
     grid-template-columns: 95% 5%;
     display: grid;
