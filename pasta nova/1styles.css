@@ -1,0 +1,114 @@
+:root{
+    --rosinha:#060d72;
+    --açai:#05177f;
+    --color: #b3b3f7;
+    --branco:#ffffff;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color);
+
+}
+
+header {
+    padding: 15px;
+    background-color: var(--açai);
+    grid-template-columns: 95% 5%;
+    display: grid;
+
+}
+
+h1 {
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-size: 27.5px;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    background-color: var(--açai);
+}
+
+.hamburguer {
+    position: relative;
+}
+
+.botao-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu-btn {
+    font-size: 24px;
+    color: var(--branco);
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: var(--açai);
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    display: none;
+    border-radius: 5px;
+}
+
+.menu li {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: beige;
+}
+
+.menu li a {
+    color: var(beige);
+    text-decoration: none;
+    display: block;
+    color: beige;
+
+}
+
+.menu li:hover {
+    background: var(--rosinha);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked + .menu-btn + .menu {
+    display: block;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    unicode-bidi: isolate;
+}
+
+
+footer{
+    padding: 15px;
+    background-color: var(--açai);
+    grid-template-columns: 95% 5%;
+    display: grid;
+}
+
+li{
+    margin: 10px;
+}
