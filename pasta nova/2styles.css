@@ -96,6 +96,7 @@ h3{
     color: var(--açai);
     display: flex;
     justify-content: center;
+    background-color: var(--açai);
 }
 
 p{
